@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Estilo de tamanho da img redes sociais-->
+    <style> 
+      .tm-social {
+        width: 35PX;
+        height: 35px;
+      }
+    </style>
+    <!--Estilo de tamanho da img redes sociais-->
+
+    <title>Dogs</title>
+  </head>
+<body>
+    <!--NavBar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" >
+      <a class="navbar-brand" href="#">Dogs</a>
+      
+      <nav class="navbar navbar-dark"></nav>
+
+      <button class=" navbar-toggler form-inline btn-outline-info " type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link " href="#">inicio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link " href="#cards">Sobre os dogs</a>
+          </li>
+          
+          <li class="nav-item active">
+            <a class="nav-link " href="#fale">Fale conosco</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link " href="#redes">Redes sociais</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link " href="#sobre">Sobre mim</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+          <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </nav>
+
+    <!--/NavBar-->
+
+    <!--Carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+        <!--Uma linha ordenada dos indicadores do carousel-->
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <!--/Uma linha ordenada dos indicadores do carrossel-->
+
+        <!--Onde vai ter as minhas imagens-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img class="d-block w-100" src="https://www.petz.com.br/blog/wp-content/uploads/2020/11/anatomia-do-cachorro-2-1280x720.jpg" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="https://www.petz.com.br/blog/wp-content/uploads/2021/02/cachorro-pode-comer-beterraba-pet-1280x720.jpg" 
+            alt="Segundo Slide">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="https://www.petvale.com.br/imagens/guia_de_racas_cachorros-irish-wolfhound2.jpg" alt="Terceiro Slide">
+        </div>      
+        <div class="carousel-item">
+            <img class="d-block w-100" src="https://imagem.bnews.com.br/fotos/bocao_noticias/jpBqbay2cEOstF5C9KaPyw/1280x720/311783-IMAGEM_NOTICIA_0.jpg" alt="Quarto Slide">
+            </div>
+        </div>
+        <!--/Onde vai ter as minhas imagens-->
+        
+        <!--São os controles que indica anterior e proximo-->
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+        <!--/São os controles que vai indicar anterior e proximo-->
+    <!--/Carousel-->
+
+    <!--Jumbotron-->
+        <div class="jumbotron jumbotron-fluid bg-light">
+            <div class="container">
+              <h1 class="display-4 ">Curiosidades sobre os cachorros</h1>
+              <p class="lead">Este é um jumbotron modificado que ocupa todo o espaço horizontal de seu elemento pai.</p>
+              
+            </div>
+          </div>
+    <!--/Jumbotron--> 
+
+    <!--Cards--> 
+      <div class="container" id="cards">
+        <div class="card-columns">
+            <div class="card">
+              <img class="card-img-top" src="https://www.petlove.com.br/images/breeds/193103/profile/original/pastor_alemao-p.jpg?1532539270" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Pastor-alemão</h5>
+                <p class="card-text">Pastor-alemão ou lobo-da-alsácia é uma raça canina proveniente da Alemanha. Em sua origem era utilizado como cão de pastoreio de rebanhos. </p>
+              </div>
+            </div>
+            <div class="card p-3">
+              <blockquote class="blockquote mb-0 card-body">
+                <p>Atualmente é mais utilizado como cão de guarda e cão policial.
+                </p>
+                <footer class="blockquote-footer">
+                  <small class="text-muted">
+                    fonte de pesquisa <cite title="Título da fonte">Wikipédia</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/e/e9/CH_Buck_and_Sons_Evita_Peron.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Buldogue</h5>
+                <p class="card-text">O buldogue-inglês é uma raça de cães do tipo buldogue oriunda da Inglaterra. </p>
+                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+              </div>
+            </div>
+            <div class="card text-light bg-info text-center p-3">
+              <blockquote class="blockquote mb-0">
+                <p>Descende de cães utilizados para combater touros em um desporto sangrento chamado bull-baiting.</p>
+                <footer class="blockquote-footer">
+                  <small>
+                    fonte de pesquisa <cite title="Título da fonte">Wikipédia</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title">Vira-Lata</h5>
+                <p class="card-text">Vira-lata ou rafeiro é a denominação dada aos cães ou gatos sem raça definida, SRD, sendo CRAND e GRAND, como são geralmente referenciados em textos veterinários.</p>
+                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img" src="https://s2.glbimg.com/XI_QifLkJB-6IxQ6eZ-u7XFU3ZY=/607x426/smart/e.glbimg.com/og/ed/f/original/2020/02/27/vira-lata.jpg" alt="Imagem do card">
+            </div>
+            <div class="card p-3 text-right">
+              <blockquote class="blockquote mb-0">
+                <p> Em algumas regiões do Brasil também são conhecidos como pé-duro, guaipeca, bajariva, totó e cusco.</p>
+                <footer class="blockquote-footer">
+                  <small class="text-muted">
+                    fonte de pesquisa <cite title="Título da fonte">Wikipédia</cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Fatos sobre os cães!</h5>
+                <p class="card-text">O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos, subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos.</p>
+                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+              </div>
+            </div>
+        </div>
+    
+    
+        <!--/Cards-->
+
+        <!--Texto e Video-->
+        <div class="row mt-5 mb-5">
+            <div class="col-md-6">
+                <h3>Texto teste</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum delectus similique, vel totam praesentium modi cupiditate maiores dignissimos libero molestias magnam harum nobis eaque, nulla nostrum dolorum odio eveniet nam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, nobis illum sequi repudiandae sed expedita nulla sapiente maxime architecto aliquam laboriosam laborum tempora beatae facilis molestias, non, voluptas praesentium voluptatum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ad maiores repudiandae asperiores eaque laudantium impedit corporis debitis qui enim quod consequuntur dignissimos ipsam minima, nisi perferendis molestiae quos nobis.</p>
+            </div>
+
+            <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fFeeRYeRYG4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!--/Texto e Video-->
+
+        <!--Formulario de contato-->
+
+        <div class="row mb-6" id="fale">
+            <div class="col-md-12">
+              <h4 class="text-center">
+                Entre em contato conosco!
+              </h4>
+            </div>
+        </div>
+
+        <div class="row d-flex align-items-center">
+          <div class="col-md-5">
+            <form>
+              <div class="form-group">
+                <label for="email">Endereço de e-mail:</label>
+                <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com" 
+                onkeyup="validaEmail()">
+                <div id="txtEmail"></div> 
+              </div>
+
+              <div class="form-group">
+                <label for="nome">Digite seu nome:</label>
+                <input type="nome" class="form-control" id="nome" onkeyup="validaNome()">
+                <div id="txtNome"></div> 
+              </div>
+              
+              <div class="form-group">
+                <label for="nomepet">Coloque o nome do seu pet:</label>
+                <input type="nomepet" class="form-control" id="nomepet" onkeyup="validaNomePet()">
+                <div id="txtNomePet"></div> 
+              </div>
+
+              <div class="form-group">
+                <label for="assunto">Assunto</label>
+                <textarea name="assunto" class="form-control" id="assunto" cols="60" rows="3" onkeyup="validaAssunto()"></textarea>
+                <div id='txtAssunto'></div>
+              </div>
+
+              <div class="form-group d-flex justify-content-end ">
+                <button  class="btn btn-outline-info" role="alert" onclick="enviar()">Enviar</button>
+              </div>
+            </form> 
+          </div>
+
+          <div class="col-md-6">
+            <iframe class="w-100 " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1853625320596!2d-46.65715181772492!3d-23.561785258698208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59dda627a4c1%3A0x5b2894a7ce278306!2sM%C3%A9qui%201000!5e0!3m2!1spt-BR!2sbr!4v1629165311696!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"  ></iframe>
+          </div>
+      
+        </div>
+        
+        <!--/Formulario de contato-->
+
+        <!--Sobre Mim - Cabeçalho -->
+        <hr>
+      <div class="media mt-5 ml-5 mr-5" id="sobre">
+        <img class="mr-3 rounded-circle " src="assets/img/ft para o linkdin.jpeg" alt="Foto do wesley" width="110px" height="110px">
+        <div class="media-body">
+          <h5 class="mt-0">Sobre Mim:</h5>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, quisquam. Laborum, perspiciatis sapiente! Assumenda, illo aliquam autem quo velit nihil fugiat sequi nostrum delectus fuga beatae dolorem at fugit reprehenderit!
+        </div>
+      </div>
+
+        <!--/Sobre Mim - Cabeçalho -->
+
+        <!--Redes Sociais e rodapé-->
+        
+        <footer>
+          <div class="row mb-3" id="redes">
+            <div class="col-md-12 d-flex justify-content-center">
+                
+                  <a href="https://www.instagram.com/wluan_sena/" target="_blank"class="p-3">
+                      <img class="tm-social" src="assets/img/instagram (1).png" alt="Logo do instagram">
+                  </a>
+                  
+                  <a href="https://www.facebook.com/wesleyluan.sena/" target="_blank"class="p-3">
+                      <img class="tm-social" src="assets/img/facebook (1).png" alt="Logo do facebook">
+                  </a>
+                  
+                  <a href="https://www.linkedin.com/in/wesley-luan-581318203/" target="_blank"class="p-3">
+                      <img class="tm-social" src="assets/img/linkedin (1).png" alt="Logo do linkedin">
+                  </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <p class="text-center">
+                Todos Direitos reservados: Wesley Luan &copy;
+              </p> 
+            </div>
+          </div>
+          
+          
+        </footer>
+        <!--Redes Sociais e rodapé-->
+      </div>  
+      
+
+    
+
+
+
+
+
+    <!-- JavaScript (Opcional) -->
+    <script src="assets/js/script.js"></script>
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
